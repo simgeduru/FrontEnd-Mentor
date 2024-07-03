@@ -1,75 +1,46 @@
-.main{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   padding: 0 10%;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-html, body{
+html,
+body {
+  height: 100%;
+  background-color: #d5e1ef;
+  font-family: Outfit;
+}
+
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > div {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 500px;
+  width: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main > div > div {
+  height: 100%;
+  width: 100%;
+  text-align: center;
   
-    height: 100%;
-    background-color: #D5E1EF;
-    font-family: Outfit ;
-}
-*{
-    margin: 0;
-    padding: 0;
 }
 
-#container{
-
-    
-    background-color: #FFFFFF;
-    border-radius: 10px;
-    padding: 5%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  
-
+main>div>div>:last-child{
+  padding: 0px 30px;
+  gap: 5px;
+  font-size: 15px;
+  text-align: center;
 }
-
-
- #test{
-    width: 100%;
-    height: 100%;
-   
+main>div>div>:first-child{
+  padding: 15px;
 }
-
-.Text{
-    margin-top: 8%;
-}
-
-@media only screen and (min-width: 768px) {
-    #test{
-        width: 90%;
-        height: 90%;
-    }
-
-    #container{
-      
-        height: 80%;
-
-    }
-    .main{
-        height: 65%;
-        padding: 0 30%;
-    }
-
-    body{
-        display: flex;
-        align-items: center;
-    }
-    .Text{
-        margin-top: 6%;
-    }
-} 
-
- @media only screen and (min-width: 1024px ){
-    .main{
-        height: 70%;
-        padding: 0 35%;
-    }
- }
