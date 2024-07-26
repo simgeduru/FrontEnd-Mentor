@@ -83,6 +83,7 @@ p{
 
 .grid-item:hover{
   background-color: #c4f82a;
+  color: black;
 }
 @media screen and (max-width: 767px) {
   main > div:first-child {
