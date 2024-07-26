@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  height: 100vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  overflow-wrap: break-word;
+  font-size: 14px;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+main > div:first-child {
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+  border-radius: 5px;
+
+}
+img {
+  max-width: 5.5rem;
+}
+html {
+  font-family: "Inter", sans-serif;
+}
+.name {
+  font-size: 24px;
+  font-weight: 600;
+}
+div>div:nth-child(2){
+  text-align: center;
+}
+h2 {
+  margin-top: 0.2rem;
+  color: #c4f82a;
+}
+.fontbold {
+  font-weight: 700;
+}
+p{
+  font-weight: 400;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+
+}
+.grid-item {
+  background-color: #333333;
+  text-align: center;
+  border-radius: 5px;
+ padding: 1rem 0 1rem 0;
+}
+
+.grid-item:hover{
+  background-color: #c4f82a;
+}
+@media screen and (max-width: 767px) {
+  main > div:first-child {
+    max-width: 22rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  main > div:first-child {
+    width: 28.5rem;
+    padding: 2.5rem 2.5rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  main > div:first-child {
+    width: 24rem;
+    padding: 2.5rem 2.5rem;
+  }
+}
