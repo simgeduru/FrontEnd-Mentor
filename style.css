@@ -1,0 +1,44 @@
+/* html,body{
+    height: 100%;
+} */
+.container{
+    height: 100vh;
+}
+.header{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2vw;
+    align-items: start;
+}
+
+#yonlendirmeler{
+font-size: 1.7vw;
+display: flex;
+gap: 1vw;
+font-weight: bold;
+color: white;
+}
+
+#bilgilendirme{
+   
+}
+#icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around   ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top:0.5vh ;
+    padding-right:4vw ;
+}
+.tag{
+    width: 2vw;
+  
+}
+
+#logo{
+    min-width: 9vw;
+}
