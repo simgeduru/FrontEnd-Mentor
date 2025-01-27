@@ -21,9 +21,6 @@ font-weight: bold;
 color: white;
 }
 
-#bilgilendirme{
-   
-}
 #icons{
     display: flex;
     flex-direction: row;
@@ -36,10 +33,46 @@ color: white;
 }
 .tag{
     width: 2vw;
-  
 }
 
 #logo{
     min-width: 5vw;
-    width: 2vw;
+    width: 20vw;
+
+   
+}
+#content{
+    display: flex;
+
+}
+#leftSection{
+background: red;
+flex-grow: 1;
+
+}
+#mainSection{
+background-color: chartreuse;
+flex-grow: 4;
+margin: 0 1vh;
+
+}
+
+#upperContent{
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+}
+
+#upperLeft{
+        width: 5vw;
+    flex-grow: 1;
+    
+}
+#upperCenter{
+    width: 10vw;
+    flex-grow: 3;
+}
+#upperRight{
+    width: 5vw;
+    flex-grow: 2;
 }
